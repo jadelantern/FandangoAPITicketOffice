@@ -7,13 +7,15 @@ Before starting this project I had these expectations:
 
 • To expand my knowledge on creating and working with API's.
 
-• To gain more knowledge making API calls, and gathering information needed for the project/task at hand.
+• To gain more knowledge making API calls, and gathering information needed for the current project/task.
 
-• To gain more knowledge on API's in general.
+• To gain more knowledge on the use of API's in general.
+
+• To gain more knowledge creating and working with web applications.
 
 ## Addressing Expectations
 
-Upon creation of this project, I learned: TBA 
+Upon creation of this project, I learned: - TBA 
 
 • 
 
