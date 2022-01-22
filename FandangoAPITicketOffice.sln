@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FandangoAPITicketOffice.Console", "FandangoAPITicketOffice.Console\FandangoAPITicketOffice.Console.csproj", "{386449AB-63D4-4588-9205-5449CE9610BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FandangoAPITicketOffice.WPF", "FandangoAPITicketOffice.WPF\FandangoAPITicketOffice.WPF.csproj", "{0444444C-1ECD-4D61-87A4-52E343A678E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{386449AB-63D4-4588-9205-5449CE9610BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{386449AB-63D4-4588-9205-5449CE9610BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{386449AB-63D4-4588-9205-5449CE9610BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{386449AB-63D4-4588-9205-5449CE9610BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0444444C-1ECD-4D61-87A4-52E343A678E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0444444C-1ECD-4D61-87A4-52E343A678E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0444444C-1ECD-4D61-87A4-52E343A678E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0444444C-1ECD-4D61-87A4-52E343A678E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0072BC94-3B60-460A-8CD0-6FC7F4B3209B}
+	EndGlobalSection
+EndGlobal
