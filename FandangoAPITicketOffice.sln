@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FandangoAPITicketOffice.Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FandangoAPITicketOffice.WPF", "FandangoAPITicketOffice.WPF\FandangoAPITicketOffice.WPF.csproj", "{0444444C-1ECD-4D61-87A4-52E343A678E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FandangoAPITicketOffice.Lib", "FandangoAPITicketOffice.Lib\FandangoAPITicketOffice.Lib.csproj", "{6F7D66A6-9F7C-41A0-834E-580D7641235D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0444444C-1ECD-4D61-87A4-52E343A678E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0444444C-1ECD-4D61-87A4-52E343A678E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0444444C-1ECD-4D61-87A4-52E343A678E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F7D66A6-9F7C-41A0-834E-580D7641235D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F7D66A6-9F7C-41A0-834E-580D7641235D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F7D66A6-9F7C-41A0-834E-580D7641235D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F7D66A6-9F7C-41A0-834E-580D7641235D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
