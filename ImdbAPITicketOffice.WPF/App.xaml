@@ -1,7 +1,7 @@
-﻿<Application x:Class="FandangoAPITicketOffice.WPF.App"
+﻿<Application x:Class="ImdbAPITicketOffice.WPF.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:FandangoAPITicketOffice.WPF"
+             xmlns:local="clr-namespace:ImdbAPITicketOffice.WPF"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

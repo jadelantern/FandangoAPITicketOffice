@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FandangoAPITicketOffice.Lib
+namespace ImdbAPITicketOffice.Lib
 {
     public class APIKeyFile
     {
@@ -17,6 +17,10 @@ namespace FandangoAPITicketOffice.Lib
             if (File.Exists(path))
             {
                 Key = File.ReadAllText(path);
+            }
+            else
+            {
+                File.Create(path);
             }
         }
     }
