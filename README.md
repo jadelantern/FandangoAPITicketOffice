@@ -1,4 +1,4 @@
-# FandangoAPITicketOffice
+# ImdbAPITicketOffice
 
 Creating a demo ticket office that interfaces and grabs information for use in the project from Fandango's API
 
