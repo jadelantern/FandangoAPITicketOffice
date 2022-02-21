@@ -28,13 +28,7 @@ namespace ImdbAPITicketOffice.Lib
             return request.Result;
         }
 
-        public string InTheaters()
-        {
-            string result = HTTPClientResult("InTheaters");
-            return result;
-        }
-
-        public InTheatersJson InTheaters2()
+        public InTheatersJson InTheaters()
         {
             string json = HTTPClientResult("InTheaters");
             var testJson = InTheatersJson.FromJson(json);
