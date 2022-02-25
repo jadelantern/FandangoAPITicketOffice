@@ -17,10 +17,8 @@ Before starting this project I had these expectations:
 
 Upon creation of this project, I learned: - TBA 
 
-• 
+• How to better create methods, and better understanding of using a method to proform a single task making the app faster overall.
 
-• 
+• How to interface with a web API, and pull requested information.
 
-•  
-
-• 
+•  Gained more practice working with JSON.
