@@ -22,30 +22,41 @@ Console.WriteLine("\n\nWelcome to the ticket office... These are the movies that
 // Store the results
 // Pass the results into ShowAllMovieTitles()
 var movieTitles = GetAllMovieTitles(inTheatersData);
+if (!movieTitles.Any())
+{
+    Console.WriteLine("Sorry there are no new movies this week... try again next week.");
+    return;
+}
+
 ShowAllMovieTitles(movieTitles);
 
 Console.WriteLine("\nWhich movie would you like a ticket for: ");
 var ticketName = Console.ReadLine();
-DoesMovieExist(movieTitles, ticketName);
+
+bool isTicketValid = DoesMovieExist(movieTitles, ticketName);
+if (isTicketValid)
+{
+    Console.WriteLine("Your ticket was found!");
+}
+else
+{
+    Console.WriteLine("Ticket not found");
+}
+
+
 
 bool DoesMovieExist(List<string> movietitle, string ticketName)
 {
-    bool movieFound = false;
     foreach (var title in movieTitles)
     {
-        if (ticketName.ToLower() == title.ToLower())
-        {
-            movieFound = true;
-        }
+        if (ticketName.ToLower() != title.ToLower())
+            continue;
+
+        return true;
     }
 
-    if (movieFound == false)
-    {
-        movieFound = false;
-    }
-    return true;
+    return false;
 }
-
 
 void ShowAllMovieTitles(List<string> movieTitles)
 {
