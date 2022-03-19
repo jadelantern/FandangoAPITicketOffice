@@ -19,25 +19,24 @@ namespace ImdbAPITicketOffice.Lib
             apiFile = new APIKeyFile(apiKeyFilePath);
         }
 
-        public string HTTPClientResult(string apiCall)
+        public async Task<string> HTTPClientResult(string apiCall)
         {
             HttpClient client = new HttpClient();
-            var request = client.GetStringAsync($"{baseURL}/{apiCall}/{apiFile.Key}");
-            request.Wait();
+            var JSON = await client.GetStringAsync($"{baseURL}/{apiCall}/{apiFile.Key}");
 
-            return request.Result;
+            return JSON;
         }
 
-        public InTheatersJson InTheaters()
+        public async Task<InTheatersJson> InTheaters()
         {
-            string json = HTTPClientResult("InTheaters");
+            string json = await HTTPClientResult("InTheaters");
             var testJson = InTheatersJson.FromJson(json);
             return testJson;
         }
 
-        public string ComingSoon()
+        public async Task<string> ComingSoon()
         {
-            string result = HTTPClientResult("ComingSoon");
+            string result = await HTTPClientResult("ComingSoon");
             return result;
         }
     }

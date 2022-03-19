@@ -14,7 +14,7 @@ if (string.IsNullOrEmpty(api.apiFile.Key))
     return;
 }
 Console.WriteLine("IMDB API Key found. Please wait while we contact the database...");
-var inTheatersData = api.InTheaters();
+var inTheatersData = await api.InTheaters();
 
 Console.WriteLine("\n\nWelcome to the ticket office... These are the movies that are currently in theaters:");
 
