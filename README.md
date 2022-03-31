@@ -15,7 +15,7 @@ Before starting this project I had these expectations:
 
 ## Addressing Expectations
 
-Upon creation of this project, I learned: - TBA 
+Upon creation of this project, I learned:
 
 • How to better create methods, and better understanding of using a method to proform a single task making the app faster overall.
 
